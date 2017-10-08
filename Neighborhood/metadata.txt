@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Neighborhood
+qgisMinimumVersion=2.0
+description=Seleccionar polígonos adyacentes
+version=0.1
+author=Juan Manuel Suarez Rodriguez / 20171094018
+email=ingjuanmasuarez@gmail.com
+
+about=En QGIS, al realizar clic en la vista del mapa sobre un objeto espacial pertenecien te a una capa activa de tipo poligonal, se debe seleccionar dicho objeto y los objetos espaciales que sean vecinos adyacentes del primero en la misma capa. Adicionalmente, en una ventana o dialogo deben ser visualizados atributos de los objetos espaciales seleccionados, permitiendo identificar y diferenciar entre el objeto de referencia seleccionado por el usuario y sus vecinos seleccionados por la herramienta.
+
+tracker=github.com
+repository=github.com
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=
+
+homepage=
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
